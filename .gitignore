@@ -1,0 +1,39 @@
+# Build
+build/
+cmake-build-*/
+out/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Eseguibili e oggetti
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dll
+*.pdb
+*.ilk
+
+# Output dei test locali
+actual_output.txt
+program_output*
+
+# Valgrind
+callgrind.out*
+massif.out*
+vgcore.*
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
